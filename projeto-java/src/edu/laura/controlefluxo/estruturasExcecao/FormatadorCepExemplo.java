@@ -2,10 +2,11 @@ package edu.laura.controlefluxo.estruturasExcecao;
 
 public class FormatadorCepExemplo {
     public static void main(String[] args) {
-        try{
-            String cepFormatado = formatarCep("23765065");
+        try {
+            String cepFormatado = formatarCep("23765064");
             System.out.println(cepFormatado);
-        } catch (CepInvalidoException e) {
+        } 
+        catch (CepInvalidoException e) {
             System.out.println("O CEP não corresponde com as regras de negócio!");;
         }
     }
